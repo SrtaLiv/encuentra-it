@@ -1,0 +1,56 @@
+<?php
+
+// only the rules this project uses; add more as new rules appear
+return [
+    'array' => 'El campo :attribute no tiene un formato válido.',
+    'boolean' => 'El campo :attribute tiene que ser verdadero o falso.',
+    'confirmed' => 'Las contraseñas no coinciden.',
+    'current_password' => 'La contraseña no es correcta.',
+    'email' => 'Ingresá un email válido.',
+    'enum' => 'El valor elegido para :attribute no es válido.',
+    'exists' => 'El valor elegido para :attribute no existe.',
+    'in' => 'El valor elegido para :attribute no es válido.',
+    'integer' => 'El campo :attribute tiene que ser un número entero.',
+    'lowercase' => 'El campo :attribute tiene que estar en minúsculas.',
+    'max' => [
+        'array' => 'El campo :attribute no puede tener más de :max elementos.',
+        'numeric' => 'El campo :attribute no puede ser mayor a :max.',
+        'string' => 'El campo :attribute no puede tener más de :max caracteres.',
+    ],
+    'min' => [
+        'array' => 'El campo :attribute tiene que tener al menos :min elementos.',
+        'numeric' => 'El campo :attribute tiene que ser al menos :min.',
+        'string' => 'El campo :attribute tiene que tener al menos :min caracteres.',
+    ],
+    'password' => [
+        'letters' => 'La contraseña tiene que tener al menos una letra.',
+        'mixed' => 'La contraseña tiene que tener mayúsculas y minúsculas.',
+        'numbers' => 'La contraseña tiene que tener al menos un número.',
+        'symbols' => 'La contraseña tiene que tener al menos un símbolo.',
+        'uncompromised' => 'Esta contraseña apareció en una filtración de datos. Elegí otra.',
+    ],
+    'required' => 'Completá el campo :attribute.',
+    'string' => 'El campo :attribute tiene que ser texto.',
+    'unique' => 'Ya existe un registro con ese :attribute.',
+    'url' => 'Ingresá un link válido que empiece con http:// o https://.',
+
+    'attributes' => [
+        'name' => 'nombre',
+        'email' => 'email',
+        'password' => 'contraseña',
+        'current_password' => 'contraseña actual',
+        'evidence_url' => 'link',
+        'title' => 'título',
+        'slug' => 'slug',
+        'summary' => 'resumen',
+        'description' => 'descripción',
+        'area_id' => 'área',
+        'coding_level' => 'nivel de programación',
+        'type' => 'tipo',
+        'level' => 'nivel',
+        'language' => 'idioma',
+        'text' => 'texto',
+        'position' => 'orden',
+        'icon' => 'icono',
+    ],
+];
